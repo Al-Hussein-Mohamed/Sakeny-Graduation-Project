@@ -1,0 +1,148 @@
+part of 'unit_model.dart';
+
+class ApartmentAndHouseRental extends UnitModel {
+  const ApartmentAndHouseRental({
+    required super.unitId,
+    required super.unitType,
+    required super.title,
+    required super.description,
+    required super.address,
+    required super.date,
+    required super.unitPicturesUrls,
+    required super.price,
+    required super.unitArea,
+    required super.unitRate,
+    required super.unitRateCount,
+    required super.visitorRate,
+    required super.bathRoomCount,
+    required super.floor,
+    required super.isRented,
+    required super.isFurnished,
+    required super.isFavorite,
+    required super.location,
+    required super.nearbyServices,
+    required super.services,
+    required super.gender,
+    required super.ownerId,
+    required super.ownerName,
+    required super.ownerRate,
+    required super.ownerRateCount,
+    required super.ownerProfilePictureUrl,
+    required super.ownerLocation,
+    required this.numberOfRooms,
+    required this.rentalFrequency,
+  });
+
+  final int numberOfRooms;
+  final RentFrequency rentalFrequency;
+
+  // ignore: sort_constructors_first
+  factory ApartmentAndHouseRental.fromJson(Map<String, dynamic> json) {
+    final String unitPic = json['frontPicture'] as String;
+    num unitRate = json[KUnitJsonKeys.unitRate] as num? ?? 0;
+    unitRate = (unitRate * 10).round() / 10;
+
+    return ApartmentAndHouseRental(
+      unitId: json[KUnitJsonKeys.unitId] as int,
+      unitType: UnitType.get(json[KUnitJsonKeys.unitType] as String),
+      title: json[KUnitJsonKeys.title] as String,
+      description: json[KUnitJsonKeys.description] as String,
+      date: json['date'] as DateTime,
+      address: json[KUnitJsonKeys.address] as String,
+      unitPicturesUrls: List<String>.from(json[KUnitJsonKeys.unitPicturesUrls] as List),
+      price: json[KUnitJsonKeys.price] as num,
+      unitArea: json[KUnitJsonKeys.unitArea] as num,
+      unitRate: unitRate,
+      unitRateCount: json[KUnitJsonKeys.unitRateCount] as int,
+      visitorRate: json[KUnitJsonKeys.visitorRate] as num?,
+      bathRoomCount: json[KUnitJsonKeys.bathRoomCount] as int,
+      floor: json[KUnitJsonKeys.floor] as int,
+      isRented: json[KUnitJsonKeys.isRented] as bool,
+      isFurnished: json[KUnitJsonKeys.isFurnished] as bool,
+      isFavorite: json[KUnitJsonKeys.isFavorite] as bool,
+      location: LatLng(
+        json[KUnitJsonKeys.location][KUnitJsonKeys.latitude] as double,
+        json[KUnitJsonKeys.location][KUnitJsonKeys.longitude] as double,
+      ),
+      nearbyServices: NearbyServicesModel.fromMask(json[KUnitJsonKeys.nearbyServices] as int),
+      services: ServicesModel.fromMask(json[KUnitJsonKeys.services] as int),
+      gender: Gender.get(json[KUnitJsonKeys.gender] as String),
+      ownerId: json[KUnitJsonKeys.ownerId] as String,
+      ownerName: json[KUnitJsonKeys.ownerName] as String,
+      ownerRate: json[KUnitJsonKeys.ownerRate] as num,
+      ownerRateCount: json[KUnitJsonKeys.ownerRateCount] as int,
+      ownerProfilePictureUrl: json[KUnitJsonKeys.ownerProfilePictureUrl] as String?,
+      ownerLocation: LatLng(
+        json[KUnitJsonKeys.ownerLocationLatitude] as double,
+        json[KUnitJsonKeys.ownerLocationLongitude] as double,
+      ),
+      numberOfRooms: json[KUnitJsonKeys.numberOfRooms] as int,
+      rentalFrequency: RentFrequency.get(json[KUnitJsonKeys.rentalFrequency] as String)!,
+    );
+  }
+
+  @override
+  ApartmentAndHouseRental copyWith({
+    int? unitId,
+    UnitType? unitType,
+    String? title,
+    String? description,
+    String? address,
+    DateTime? date,
+    List<String>? unitPicturesUrls,
+    num? price,
+    num? unitArea,
+    num? unitRate,
+    int? unitRateCount,
+    int? bathRoomCount,
+    int? floor,
+    bool? isRented,
+    bool? isFurnished,
+    bool? isFavorite,
+    LatLng? location,
+    NearbyServicesModel? nearbyServices,
+    ServicesModel? services,
+    Gender? gender,
+    String? ownerId,
+    String? ownerName,
+    num? ownerRate,
+    int? ownerRateCount,
+    String? ownerProfilePictureUrl,
+    LatLng? ownerLocation,
+    num? visitorRate,
+    int? numberOfRooms,
+    RentFrequency? rentalFrequency,
+  }) {
+    return ApartmentAndHouseRental(
+      unitId: unitId ?? this.unitId,
+      unitType: unitType ?? this.unitType,
+      title: title ?? this.title,
+      description: description ?? this.description,
+      address: address ?? this.address,
+      date: date ?? this.date,
+      unitPicturesUrls: unitPicturesUrls ?? this.unitPicturesUrls,
+      price: price ?? this.price,
+      unitArea: unitArea ?? this.unitArea,
+      unitRate: unitRate ?? this.unitRate,
+      unitRateCount: unitRateCount ?? this.unitRateCount,
+      visitorRate: visitorRate ?? this.visitorRate,
+      bathRoomCount: bathRoomCount ?? this.bathRoomCount,
+      floor: floor ?? this.floor,
+      isRented: isRented ?? this.isRented,
+      isFurnished: isFurnished ?? this.isFurnished,
+      isFavorite: isFavorite ?? this.isFavorite,
+      location: location ?? this.location,
+      nearbyServices: nearbyServices ?? this.nearbyServices,
+      services: services ?? this.services,
+      gender: gender ?? this.gender,
+      ownerId: ownerId ?? this.ownerId,
+      ownerName: ownerName ?? this.ownerName,
+      ownerRate: ownerRate ?? this.ownerRate,
+      ownerRateCount: ownerRateCount ?? this.ownerRateCount,
+      ownerProfilePictureUrl: ownerProfilePictureUrl ?? this.ownerProfilePictureUrl,
+      ownerLocation: ownerLocation ?? this.ownerLocation,
+      numberOfRooms: numberOfRooms ?? this.numberOfRooms,
+      rentalFrequency: rentalFrequency ?? this.rentalFrequency,
+    );
+  }
+}

@@ -1,0 +1,9 @@
+<svg height="20" viewBox="0 0 96 96" width="20" xmlns="http://www.w3.org/2000/svg">
+    <!-- Red circular background -->
+    <circle cx="48" cy="48" fill="#F44336" r="48" />
+
+    <!-- Rounded exclamation mark (moved down) -->
+    <rect fill="#FFFFFF" height="32" rx="4" width="8" x="44" y="28" />
+    <circle cx="48" cy="68" fill="#FFFFFF" r="5" />
+    <circle cx="48" cy="68" fill="#FFFFFF" r="5" />
+</svg>

@@ -1,0 +1,3 @@
+class KArgsKeys {
+  KArgsKeys._();
+}
