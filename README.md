@@ -4,6 +4,11 @@
 
 ---
 
+## 🚀 Releases
+
+You can find all official releases of **Sakany App** here:  
+👉 [View Releases](https://github.com/YourUsername/YourRepoName/releases)
+
 ## 💡 Idea  
 Finding housing usually depends on connections and word of mouth. Sakany changes that by creating a reliable, centralized platform to make the process easier, faster, and smarter.  
 
@@ -51,10 +56,29 @@ Finding housing usually depends on connections and word of mouth. Sakany changes
 
 Here are some slides and screenshots from the project:  
 
-[<img src="readme_assets/SakenyPresentation_page-0001" width="200"/>](readme_assets/SakenyPresentation_page-0001)
-[<img src="readme_assets/SakenyPresentation_page-0001" width="200"/>](readme_assets/SakenyPresentation_page-0001)
-[<img src="readme_assets/SakenyPresentation_page-0001" width="200"/>](readme_assets/SakenyPresentation_page-0001)
-[<img src="readme_assets/SakenyPresentation_page-0001" width="200"/>](readme_assets/SakenyPresentation_page-0001)
+[<img src="readme_assets/SakenyPresentation_page-0001.jpg"/>](readme_assets/SakenyPresentation_page-0001.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0002.jpg"/>](readme_assets/SakenyPresentation_page-0002.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0003.jpg"/>](readme_assets/SakenyPresentation_page-0003.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0004.jpg"/>](readme_assets/SakenyPresentation_page-0004.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0005.jpg"/>](readme_assets/SakenyPresentation_page-0005.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0006.jpg"/>](readme_assets/SakenyPresentation_page-0006.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0007.jpg"/>](readme_assets/SakenyPresentation_page-0007.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0008.jpg"/>](readme_assets/SakenyPresentation_page-0008.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0009.jpg"/>](readme_assets/SakenyPresentation_page-0009.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0010.jpg"/>](readme_assets/SakenyPresentation_page-0010.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0011.jpg"/>](readme_assets/SakenyPresentation_page-0011.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0012.jpg"/>](readme_assets/SakenyPresentation_page-0012.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0013.jpg"/>](readme_assets/SakenyPresentation_page-0013.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0014.jpg"/>](readme_assets/SakenyPresentation_page-0014.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0015.jpg"/>](readme_assets/SakenyPresentation_page-0015.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0016.jpg"/>](readme_assets/SakenyPresentation_page-0016.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0017.jpg"/>](readme_assets/SakenyPresentation_page-0017.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0018.jpg"/>](readme_assets/SakenyPresentation_page-0018.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0019.jpg"/>](readme_assets/SakenyPresentation_page-0019.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0020.jpg"/>](readme_assets/SakenyPresentation_page-0020.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0021.jpg"/>](readme_assets/SakenyPresentation_page-0021.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0032.jpg"/>](readme_assets/SakenyPresentation_page-0032.jpg)
+[<img src="readme_assets/SakenyPresentation_page-0033.jpg"/>](readme_assets/SakenyPresentation_page-0033.jpg)
 
 ---
 
