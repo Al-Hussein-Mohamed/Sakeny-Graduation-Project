@@ -53,6 +53,17 @@ Finding housing usually depends on connections and word of mouth. Sakany changes
 
 ---
 
+## 👨‍💻 Team
+
+This project was built with the efforts of our amazing team:
+
+- [Al-Hussein Mohamed](https://github.com/Al-Hussein-Mohamed) – Mobile Development (Flutter)  
+- [Abanop Nashat](https://github.com/AbanopNashat) – Mobile Development (Flutter) 
+- [OmarAnalog](https://github.com/OmarAnalog) –  Backend Development (.Net)
+- [Abdelazim Ahmed](https://github.com/AbdelazimAhmed) – Backend Development (.Net)
+
+---
+
 ## 📽️ Slideshow  
 
 Here are some slides and screenshots from the project:  
