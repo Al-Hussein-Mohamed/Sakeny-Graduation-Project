@@ -7,7 +7,8 @@
 ## 🚀 Releases
 
 You can find all official releases of **Sakany App** here:  
-👉 [View Releases](https://github.com/YourUsername/YourRepoName/releases)
+👉 - 📱 [Sakeny – Initial Release](https://github.com/Al-Hussein-Mohamed/Sakeny-Graduation-Project/releases/tag/v1.0.0)
+
 
 ## 💡 Idea  
 Finding housing usually depends on connections and word of mouth. Sakany changes that by creating a reliable, centralized platform to make the process easier, faster, and smarter.  
