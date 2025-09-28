@@ -47,4 +47,15 @@ Finding housing usually depends on connections and word of mouth. Sakany changes
 
 ---
 
+## 📽️ Slideshow  
+
+Here are some slides and screenshots from the project:  
+
+[<img src="readme_assets/SakenyPresentation_page-0001" width="200"/>](readme_assets/SakenyPresentation_page-0001)
+[<img src="readme_assets/SakenyPresentation_page-0001" width="200"/>](readme_assets/SakenyPresentation_page-0001)
+[<img src="readme_assets/SakenyPresentation_page-0001" width="200"/>](readme_assets/SakenyPresentation_page-0001)
+[<img src="readme_assets/SakenyPresentation_page-0001" width="200"/>](readme_assets/SakenyPresentation_page-0001)
+
+---
+
 ✨ *Sakany isn’t just a project — it’s a solution I wish I had when searching for housing as a student.*  
